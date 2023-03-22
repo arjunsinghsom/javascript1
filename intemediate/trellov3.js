@@ -27,7 +27,7 @@ let myTodos2 = {
     'meetings' : 0,
     'meetDone' : 0,
 
-    'addMeeting' : function(num){
+    'addMeeting' :  function(num){
         this.meetings = this.meetings + num
         return ` you have ${this.meetings} meetings today`
        
